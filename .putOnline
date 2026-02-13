@@ -1,0 +1,31 @@
+Use Expo EAS Build:
+
+npx expo install eas-cli
+npx eas build:configure
+npx eas build --platform android
+
+
+You’ll get a download link to share like:
+
+https://expo.dev/artifacts/....
+
+in you account from here > https://expo.dev/accounts/accountName/projects/Auth-app/builds
+
+
+People can install the APK directly.
+
+APK
+
+Run this command in your project folder:
+
+npx eas build --platform android --profile preview
+
+Install on Android devices
+
+On the phone, go to Settings → Security → Enable “Install unknown apps” (if not from Play Store)
+
+Open the link or APK file in the browser
+
+Tap Install
+
+
